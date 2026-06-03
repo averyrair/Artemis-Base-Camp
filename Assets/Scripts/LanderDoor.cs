@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class LanderDoor : InteractableObject
 {
     [SerializeField]
-    private List<ParticleSystem> _steamVents;
+    private Airlock _airlock;
     private Animator _animator;
     private Astronaut _player;
     
@@ -22,7 +22,7 @@ public class LanderDoor : InteractableObject
 
     protected override void OnInteract(InputAction.CallbackContext context)
     {
-       if (!_isHovered)
+       if (!_isSelected)
         {
             return;
         }
@@ -39,50 +39,29 @@ public class LanderDoor : InteractableObject
 
     private IEnumerator OpenDoor()
     {
+        _onCooldown = true;
         if (_player.IsInside)
         {
-            // 1. put on suit
             _player.Outfit = Astronaut.OutfitOption.SPACESUIT;
-            // 2. depressurize
-            yield return new WaitForSeconds(0.5f);
-            Pressurize();
-            // 3. open door
-            yield return new WaitForSeconds(3.5f);
-            _animator.SetTrigger("Open"); 
-            // wait for door to finish closing before pressurizing
-            yield return new WaitUntil(() => _doorCloseAnimationFinishFlag);
-            _doorCloseAnimationFinishFlag = false;
-            // 4. pressurize
-            yield return new WaitForSeconds(0.5f);
-            Pressurize();
         }
-        else
+        // 2. depressurize
+        yield return new WaitForSeconds(0.5f);
+        _airlock.Trigger();
+        // 3. open door
+        yield return new WaitForSeconds(1.5f);
+        _animator.SetTrigger("Open"); 
+        // wait for door to finish closing before pressurizing
+        yield return new WaitUntil(() => _doorCloseAnimationFinishFlag);
+        _doorCloseAnimationFinishFlag = false;
+        // 4. pressurize
+        yield return new WaitForSeconds(0.5f);
+        _airlock.Trigger();
+        yield return new WaitForSeconds(1.5f);
+        if (_player.IsInside)
         {
-            // 1. depressurize
-            yield return new WaitForSeconds(0.5f);
-            Pressurize();
-            // 2. open door
-            yield return new WaitForSeconds(3.5f);
-            _animator.SetTrigger("Open");
-            // wait for door to finish closing before pressurizing
-            yield return new WaitUntil(() => _doorCloseAnimationFinishFlag);
-            _doorCloseAnimationFinishFlag = false;
-            // 3. pressurize
-            yield return new WaitForSeconds(0.5f);
-            Pressurize();
-            // 4. remove suit
-            yield return new WaitForSeconds(3.5f);
             _player.Outfit = Astronaut.OutfitOption.BLUE_JUMPSUIT;
-            
         }
+        _onCooldown = false;
 
-    }
-
-    private void Pressurize()
-    {
-        foreach (var vent in _steamVents)
-        {
-            vent.Play();
-        }
     }
 }

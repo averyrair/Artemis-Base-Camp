@@ -125,8 +125,8 @@ GameObject:
   - component: {fileID: 5798749628154596858}
   - component: {fileID: 4992748112717140299}
   - component: {fileID: 7535864149827509641}
-  - component: {fileID: 1427785681285822216}
   - component: {fileID: 4812139416460424774}
+  - component: {fileID: 4241526873611196219}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -190,7 +190,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   _moveSpeed: 3
---- !u!60 &1427785681285822216
+--- !u!114 &4812139416460424774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5878386927809173598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661eb1c62b2741c4dafb2690e950e7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Astronaut
+  outfitList:
+  - outfit: 0
+    sprite: {fileID: -5339823026843287996, guid: 07768b290cbd2b840861589f9f700d21, type: 3}
+  - outfit: 1
+    sprite: {fileID: 6202094842407460802, guid: 07768b290cbd2b840861589f9f700d21, type: 3}
+--- !u!60 &4241526873611196219
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,8 +244,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 1}
-    oldSize: {x: 1, y: 1.125}
+    pivot: {x: 0.5, y: 0.09090909}
+    oldSize: {x: 1.25, y: 1.375}
     newSize: {x: 1, y: 1.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -236,25 +253,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.25, y: -1.125}
-      - {x: 0.75, y: -1.125}
-      - {x: 0.75, y: -0.75}
-      - {x: 0.25, y: -0.75}
+    - - {x: -0.25, y: 0}
+      - {x: 0.25, y: 0}
+      - {x: 0.25, y: 0.375}
+      - {x: -0.25, y: 0.375}
   m_UseDelaunayMesh: 1
---- !u!114 &4812139416460424774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5878386927809173598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 661eb1c62b2741c4dafb2690e950e7ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Astronaut
-  outfitList:
-  - outfit: 0
-    sprite: {fileID: -5339823026843287996, guid: 07768b290cbd2b840861589f9f700d21, type: 3}
-  - outfit: 1
-    sprite: {fileID: 6202094842407460802, guid: 07768b290cbd2b840861589f9f700d21, type: 3}

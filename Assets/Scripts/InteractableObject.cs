@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class InteractableObject : MonoBehaviour
 {
-    protected static readonly float HOVER_DISTANCE_LIMIT = 2f;
+    protected static readonly float HOVER_DISTANCE_LIMIT = 16f;
 
     protected Transform _playerTransform;
     protected InputSystem_Actions _controls;

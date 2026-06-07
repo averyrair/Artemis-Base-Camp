@@ -1,0 +1,1168 @@
+fileFormatVersion: 2
+guid: 4d2940f32ad77bc4c85e86462b7750f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -108692507788900196
+    second: craters_0
+  - first:
+      213: -6578710403749767676
+    second: craters_1
+  - first:
+      213: 1153285200677514201
+    second: craters_2
+  - first:
+      213: -3474598007583874423
+    second: craters_3
+  - first:
+      213: -6561479806351666652
+    second: craters_4
+  - first:
+      213: -8770630058700640652
+    second: craters_5
+  - first:
+      213: 5634590564009818122
+    second: craters_6
+  - first:
+      213: -4818580742724988427
+    second: craters_7
+  - first:
+      213: 1714265838720407131
+    second: craters_8
+  - first:
+      213: 215914540380345701
+    second: craters_9
+  - first:
+      213: 5078857596797005353
+    second: craters_10
+  - first:
+      213: 4437847702344862036
+    second: craters_11
+  - first:
+      213: 2614410647171506710
+    second: craters_12
+  - first:
+      213: -6748885505537083092
+    second: craters_13
+  - first:
+      213: 7939439047723876266
+    second: craters_14
+  - first:
+      213: 6611293130579286811
+    second: craters_15
+  - first:
+      213: 153413277265695970
+    second: craters_16
+  - first:
+      213: 5461275775707545711
+    second: craters_17
+  - first:
+      213: -2366041027434819635
+    second: craters_18
+  - first:
+      213: 5166217727973601793
+    second: craters_19
+  - first:
+      213: -552584020854014661
+    second: craters_20
+  - first:
+      213: -5658153895135111294
+    second: craters_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: craters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 25
+        height: 17
+      alignment: 9
+      pivot: {x: 0.48, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: 5.5}
+        - {x: -10.5, y: 5.5}
+        - {x: -10.5, y: 3.5}
+        - {x: -11.5, y: 3.5}
+        - {x: -11.5, y: -3.5}
+        - {x: -10.5, y: -3.5}
+        - {x: -10.5, y: -5.5}
+        - {x: -9.5, y: -5.5}
+        - {x: -9.5, y: -7.5}
+        - {x: -0.5, y: -7.5}
+        - {x: -0.5, y: -6.5}
+        - {x: 3.5, y: -6.5}
+        - {x: 3.5, y: -5.5}
+        - {x: 6.5, y: -5.5}
+        - {x: 6.5, y: -4.5}
+        - {x: 8.5, y: -4.5}
+        - {x: 8.5, y: -3.5}
+        - {x: 10.5, y: -3.5}
+        - {x: 10.5, y: -1.5}
+        - {x: 11.5, y: -1.5}
+        - {x: 11.5, y: 4.5}
+        - {x: 10.5, y: 4.5}
+        - {x: 10.5, y: 5.5}
+        - {x: 9.5, y: 5.5}
+        - {x: 9.5, y: 6.5}
+        - {x: 8.5, y: 6.5}
+        - {x: 8.5, y: 7.5}
+        - {x: -3.5, y: 7.5}
+        - {x: -3.5, y: 6.5}
+        - {x: -8.5, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980f737db8dd7ef0800000000000000
+      internalID: -108692507788900196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: 5.5}
+        - {x: -4.5, y: 5.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -5.5, y: 4.5}
+        - {x: -5.5, y: 3.5}
+        - {x: -6.5, y: 3.5}
+        - {x: -6.5, y: 2.5}
+        - {x: -7.5, y: 2.5}
+        - {x: -7.5, y: 1.5}
+        - {x: -8.5, y: 1.5}
+        - {x: -8.5, y: -2.5}
+        - {x: -7.5, y: -2.5}
+        - {x: -7.5, y: -4.5}
+        - {x: -6.5, y: -4.5}
+        - {x: -6.5, y: -5.5}
+        - {x: -5.5, y: -5.5}
+        - {x: -5.5, y: -6.5}
+        - {x: 3.5, y: -6.5}
+        - {x: 3.5, y: -5.5}
+        - {x: 6.5, y: -5.5}
+        - {x: 6.5, y: -4.5}
+        - {x: 7.5, y: -4.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 8.5, y: -2.5}
+        - {x: 8.5, y: 2.5}
+        - {x: 7.5, y: 2.5}
+        - {x: 7.5, y: 4.5}
+        - {x: 6.5, y: 4.5}
+        - {x: 6.5, y: 5.5}
+        - {x: 4.5, y: 5.5}
+        - {x: 4.5, y: 6.5}
+        - {x: -2.5, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40614584eb9b3b4a0800000000000000
+      internalID: -6578710403749767676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 40
+        width: 17
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: 10}
+        - {x: -3.5, y: 10}
+        - {x: -3.5, y: 9}
+        - {x: -4.5, y: 9}
+        - {x: -4.5, y: 8}
+        - {x: -5.5, y: 8}
+        - {x: -5.5, y: 7}
+        - {x: -6.5, y: 7}
+        - {x: -6.5, y: 4}
+        - {x: -7.5, y: 4}
+        - {x: -7.5, y: -2}
+        - {x: -6.5, y: -2}
+        - {x: -6.5, y: -4}
+        - {x: -5.5, y: -4}
+        - {x: -5.5, y: -7}
+        - {x: -4.5, y: -7}
+        - {x: -4.5, y: -8}
+        - {x: -2.5, y: -8}
+        - {x: -2.5, y: -10}
+        - {x: -0.5, y: -10}
+        - {x: -0.5, y: -11}
+        - {x: 3.5, y: -11}
+        - {x: 3.5, y: -10}
+        - {x: 4.5, y: -10}
+        - {x: 4.5, y: -9}
+        - {x: 5.5, y: -9}
+        - {x: 5.5, y: -8}
+        - {x: 6.5, y: -8}
+        - {x: 6.5, y: -6}
+        - {x: 7.5, y: -6}
+        - {x: 7.5, y: 4}
+        - {x: 6.5, y: 4}
+        - {x: 6.5, y: 6}
+        - {x: 5.5, y: 6}
+        - {x: 5.5, y: 7}
+        - {x: 4.5, y: 7}
+        - {x: 4.5, y: 8}
+        - {x: 3.5, y: 8}
+        - {x: 3.5, y: 9}
+        - {x: 2.5, y: 9}
+        - {x: 2.5, y: 10}
+        - {x: 1.5, y: 10}
+        - {x: 1.5, y: 11}
+        - {x: -1.5, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db291797ca410010800000000000000
+      internalID: 1153285200677514201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -5, y: 5}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -7}
+        - {x: -5, y: -7}
+        - {x: -5, y: -9}
+        - {x: -3, y: -9}
+        - {x: -3, y: -10}
+        - {x: 2, y: -10}
+        - {x: 2, y: -9}
+        - {x: 4, y: -9}
+        - {x: 4, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -4}
+        - {x: 7, y: -4}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: 8}
+        - {x: 4, y: 8}
+        - {x: 4, y: 9}
+        - {x: 3, y: 9}
+        - {x: 3, y: 10}
+        - {x: -2, y: 10}
+        - {x: -2, y: 9}
+        - {x: -3, y: 9}
+        - {x: -3, y: 8}
+        - {x: -4, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982eea4758fb7cfc0800000000000000
+      internalID: -3474598007583874423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 27
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -2.5}
+        - {x: -6, y: -2.5}
+        - {x: -6, y: -3.5}
+        - {x: -5, y: -3.5}
+        - {x: -5, y: -4.5}
+        - {x: -2, y: -4.5}
+        - {x: -2, y: -5.5}
+        - {x: 2, y: -5.5}
+        - {x: 2, y: -4.5}
+        - {x: 4, y: -4.5}
+        - {x: 4, y: -3.5}
+        - {x: 5, y: -3.5}
+        - {x: 5, y: -2.5}
+        - {x: 6, y: -2.5}
+        - {x: 6, y: -1.5}
+        - {x: 7, y: -1.5}
+        - {x: 7, y: 2.5}
+        - {x: 6, y: 2.5}
+        - {x: 6, y: 3.5}
+        - {x: 5, y: 3.5}
+        - {x: 5, y: 4.5}
+        - {x: 4, y: 4.5}
+        - {x: 4, y: 5.5}
+        - {x: -5, y: 5.5}
+        - {x: -5, y: 4.5}
+        - {x: -6, y: 4.5}
+        - {x: -6, y: 3.5}
+        - {x: -7, y: 3.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422928d51e0f0f4a0800000000000000
+      internalID: -6561479806351666652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 13
+        height: 9
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -5.5, y: 0.5}
+        - {x: -4.5, y: 0.5}
+        - {x: -4.5, y: -0.5}
+        - {x: -3.5, y: -0.5}
+        - {x: -3.5, y: -1.5}
+        - {x: -1.5, y: -1.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 0.5, y: -2.5}
+        - {x: 0.5, y: -3.5}
+        - {x: 3.5, y: -3.5}
+        - {x: 3.5, y: -2.5}
+        - {x: 4.5, y: -2.5}
+        - {x: 4.5, y: -1.5}
+        - {x: 5.5, y: -1.5}
+        - {x: 5.5, y: 0.5}
+        - {x: 4.5, y: 0.5}
+        - {x: 4.5, y: 1.5}
+        - {x: 3.5, y: 1.5}
+        - {x: 3.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: 3.5}
+        - {x: -4.5, y: 3.5}
+        - {x: -4.5, y: 2.5}
+        - {x: -5.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ee8ce2e66784680800000000000000
+      internalID: -8770630058700640652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 31
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: -1.5}
+        - {x: -3.5, y: -1.5}
+        - {x: -3.5, y: -2.5}
+        - {x: -2.5, y: -2.5}
+        - {x: -2.5, y: -3.5}
+        - {x: 2.5, y: -3.5}
+        - {x: 2.5, y: -2.5}
+        - {x: 3.5, y: -2.5}
+        - {x: 3.5, y: -1.5}
+        - {x: 4.5, y: -1.5}
+        - {x: 4.5, y: 0.5}
+        - {x: 3.5, y: 0.5}
+        - {x: 3.5, y: 1.5}
+        - {x: 2.5, y: 1.5}
+        - {x: 2.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: 3.5}
+        - {x: -4.5, y: 3.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b29eb346123e40800000000000000
+      internalID: 5634590564009818122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 3.5, y: -4.5}
+        - {x: 4.5, y: -4.5}
+        - {x: 4.5, y: -3.5}
+        - {x: 5.5, y: -3.5}
+        - {x: 5.5, y: -2.5}
+        - {x: 6.5, y: -2.5}
+        - {x: 6.5, y: 2.5}
+        - {x: 5.5, y: 2.5}
+        - {x: 5.5, y: 3.5}
+        - {x: 4.5, y: 3.5}
+        - {x: 4.5, y: 4.5}
+        - {x: 0.5, y: 4.5}
+        - {x: 0.5, y: 5.5}
+        - {x: -4.5, y: 5.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -6.5, y: 4.5}
+        - {x: -6.5, y: -2.5}
+        - {x: -5.5, y: -2.5}
+        - {x: -5.5, y: -3.5}
+        - {x: -4.5, y: -3.5}
+        - {x: -4.5, y: -4.5}
+        - {x: -1.5, y: -4.5}
+        - {x: -1.5, y: -5.5}
+        - {x: 3.5, y: -5.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 5f1d65c2856f02db0800000000000000
+      internalID: -4818580742724988427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -4.5}
+        - {x: 3, y: -4.5}
+        - {x: 3, y: -3.5}
+        - {x: 4, y: -3.5}
+        - {x: 4, y: -2.5}
+        - {x: 5, y: -2.5}
+        - {x: 5, y: 3.5}
+        - {x: 4, y: 3.5}
+        - {x: 4, y: 4.5}
+        - {x: 2, y: 4.5}
+        - {x: 2, y: 5.5}
+        - {x: -2, y: 5.5}
+        - {x: -2, y: 4.5}
+        - {x: -4, y: 4.5}
+        - {x: -4, y: 3.5}
+        - {x: -5, y: 3.5}
+        - {x: -5, y: -2.5}
+        - {x: -4, y: -2.5}
+        - {x: -4, y: -3.5}
+        - {x: -3, y: -3.5}
+        - {x: -3, y: -4.5}
+        - {x: -1, y: -4.5}
+        - {x: -1, y: -5.5}
+        - {x: 2, y: -5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56548f92bb4ac710800000000000000
+      internalID: 1714265838720407131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 16
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 3}
+        - {x: 5, y: 3}
+        - {x: 5, y: 4}
+        - {x: 3, y: 4}
+        - {x: 3, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: 1}
+        - {x: -6, y: 1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -5}
+        - {x: 0, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565563961251ff200800000000000000
+      internalID: 215914540380345701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: 2.5, y: -1.5}
+        - {x: 3.5, y: -1.5}
+        - {x: 3.5, y: 2.5}
+        - {x: 2.5, y: 2.5}
+        - {x: 2.5, y: 3.5}
+        - {x: -0.5, y: 3.5}
+        - {x: -0.5, y: 2.5}
+        - {x: -2.5, y: 2.5}
+        - {x: -2.5, y: 1.5}
+        - {x: -3.5, y: 1.5}
+        - {x: -3.5, y: -2.5}
+        - {x: -2.5, y: -2.5}
+        - {x: -2.5, y: -3.5}
+        - {x: 1.5, y: -3.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 92e21e9431abb7640800000000000000
+      internalID: 5078857596797005353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: -0.5}
+        - {x: 2.5, y: -0.5}
+        - {x: 2.5, y: 0.5}
+        - {x: 3.5, y: 0.5}
+        - {x: 3.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: 3.5}
+        - {x: -1.5, y: 3.5}
+        - {x: -1.5, y: 1.5}
+        - {x: -2.5, y: 1.5}
+        - {x: -2.5, y: 0.5}
+        - {x: -3.5, y: 0.5}
+        - {x: -3.5, y: -2.5}
+        - {x: -2.5, y: -2.5}
+        - {x: -2.5, y: -3.5}
+        - {x: 0.5, y: -3.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 4598c89f8f6669d30800000000000000
+      internalID: 4437847702344862036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 16
+        width: 10
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -2.5}
+        - {x: 3, y: -2.5}
+        - {x: 3, y: -1.5}
+        - {x: 4, y: -1.5}
+        - {x: 4, y: 1.5}
+        - {x: 3, y: 1.5}
+        - {x: 3, y: 2.5}
+        - {x: 2, y: 2.5}
+        - {x: 2, y: 3.5}
+        - {x: -2, y: 3.5}
+        - {x: -2, y: 2.5}
+        - {x: -4, y: 2.5}
+        - {x: -4, y: -3.5}
+        - {x: 1, y: -3.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 61228a1c1a0484420800000000000000
+      internalID: 2614410647171506710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 7
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -2.5}
+        - {x: 2, y: -2.5}
+        - {x: 2, y: 2.5}
+        - {x: 1, y: 2.5}
+        - {x: 1, y: 3.5}
+        - {x: -1, y: 3.5}
+        - {x: -1, y: 2.5}
+        - {x: -2, y: 2.5}
+        - {x: -2, y: -1.5}
+        - {x: -1, y: -1.5}
+        - {x: -1, y: -3.5}
+        - {x: 1, y: -3.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: c29fdacc3642752a0800000000000000
+      internalID: -6748885505537083092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 16
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -2}
+        - {x: 3.5, y: -2}
+        - {x: 3.5, y: -1}
+        - {x: 4.5, y: -1}
+        - {x: 4.5, y: 2}
+        - {x: 3.5, y: 2}
+        - {x: 3.5, y: 3}
+        - {x: -3.5, y: 3}
+        - {x: -3.5, y: 2}
+        - {x: -4.5, y: 2}
+        - {x: -4.5, y: -1}
+        - {x: -3.5, y: -1}
+        - {x: -3.5, y: -2}
+        - {x: -0.5, y: -2}
+        - {x: -0.5, y: -3}
+        - {x: 1.5, y: -3}
+      tessellationDetail: 1
+      bones: []
+      spriteID: aaf727bbfbd8e2e60800000000000000
+      internalID: 7939439047723876266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 7
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -0.5}
+        - {x: 2, y: -0.5}
+        - {x: 2, y: 0.5}
+        - {x: 1, y: 0.5}
+        - {x: 1, y: 2.5}
+        - {x: 0, y: 2.5}
+        - {x: 0, y: 3.5}
+        - {x: -3, y: 3.5}
+        - {x: -3, y: -0.5}
+        - {x: -2, y: -0.5}
+        - {x: -2, y: -2.5}
+        - {x: -1, y: -2.5}
+        - {x: -1, y: -3.5}
+        - {x: 3, y: -3.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: b1b982af21800cb50800000000000000
+      internalID: 6611293130579286811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 17
+        height: 13
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 3.5, y: -4.5}
+        - {x: 5.5, y: -4.5}
+        - {x: 5.5, y: -3.5}
+        - {x: 6.5, y: -3.5}
+        - {x: 6.5, y: -2.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: 0.5}
+        - {x: 6.5, y: 0.5}
+        - {x: 6.5, y: 2.5}
+        - {x: 5.5, y: 2.5}
+        - {x: 5.5, y: 3.5}
+        - {x: 3.5, y: 3.5}
+        - {x: 3.5, y: 4.5}
+        - {x: 1.5, y: 4.5}
+        - {x: 1.5, y: 5.5}
+        - {x: -4.5, y: 5.5}
+        - {x: -4.5, y: 4.5}
+        - {x: -6.5, y: 4.5}
+        - {x: -6.5, y: 3.5}
+        - {x: -7.5, y: 3.5}
+        - {x: -7.5, y: -1.5}
+        - {x: -6.5, y: -1.5}
+        - {x: -6.5, y: -2.5}
+        - {x: -5.5, y: -2.5}
+        - {x: -5.5, y: -3.5}
+        - {x: -3.5, y: -3.5}
+        - {x: -3.5, y: -4.5}
+        - {x: 0.5, y: -4.5}
+        - {x: 0.5, y: -5.5}
+        - {x: 3.5, y: -5.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 2e410471098012200800000000000000
+      internalID: 153413277265695970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 4}
+        - {x: 2, y: 4}
+        - {x: 2, y: 5}
+        - {x: -3, y: 5}
+        - {x: -3, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -5}
+        - {x: -1, y: -5}
+        - {x: -1, y: -6}
+        - {x: 3, y: -6}
+      tessellationDetail: 1
+      bones: []
+      spriteID: f608e7702695acb40800000000000000
+      internalID: 5461275775707545711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -1}
+        - {x: 2.5, y: -1}
+        - {x: 2.5, y: 1}
+        - {x: 1.5, y: 1}
+        - {x: 1.5, y: 2}
+        - {x: -2.5, y: 2}
+        - {x: -2.5, y: -2}
+        - {x: 1.5, y: -2}
+      tessellationDetail: 1
+      bones: []
+      spriteID: dcf4fbba8322a2fd0800000000000000
+      internalID: -2366041027434819635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -2.5}
+        - {x: 0, y: -1.5}
+        - {x: 3, y: -1.5}
+        - {x: 3, y: 0.5}
+        - {x: 2, y: 0.5}
+        - {x: 2, y: 2.5}
+        - {x: -2, y: 2.5}
+        - {x: -2, y: 0.5}
+        - {x: -3, y: 0.5}
+        - {x: -3, y: -1.5}
+        - {x: -2, y: -1.5}
+        - {x: -2, y: -2.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 102313cd6a712b740800000000000000
+      internalID: 5166217727973601793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 8
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -1.5}
+        - {x: 3, y: -1.5}
+        - {x: 3, y: 1.5}
+        - {x: 2, y: 1.5}
+        - {x: 2, y: 2.5}
+        - {x: -2, y: 2.5}
+        - {x: -2, y: 1.5}
+        - {x: -3, y: 1.5}
+        - {x: -3, y: -1.5}
+        - {x: -2, y: -1.5}
+        - {x: -2, y: -2.5}
+        - {x: 1, y: -2.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: b3d7070c2c3d458f0800000000000000
+      internalID: -552584020854014661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: craters_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -1.5}
+        - {x: 2, y: -1.5}
+        - {x: 2, y: 2.5}
+        - {x: -1, y: 2.5}
+        - {x: -1, y: 1.5}
+        - {x: -2, y: 1.5}
+        - {x: -2, y: -2.5}
+        - {x: 1, y: -2.5}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 2879af3b2033a71b0800000000000000
+      internalID: -5658153895135111294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8440f4085d3e91b4684c19563faa2f96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      craters_0: -108692507788900196
+      craters_1: -6578710403749767676
+      craters_10: 5078857596797005353
+      craters_11: 4437847702344862036
+      craters_12: 2614410647171506710
+      craters_13: -6748885505537083092
+      craters_14: 7939439047723876266
+      craters_15: 6611293130579286811
+      craters_16: 153413277265695970
+      craters_17: 5461275775707545711
+      craters_18: -2366041027434819635
+      craters_19: 5166217727973601793
+      craters_2: 1153285200677514201
+      craters_20: -552584020854014661
+      craters_21: -5658153895135111294
+      craters_3: -3474598007583874423
+      craters_4: -6561479806351666652
+      craters_5: -8770630058700640652
+      craters_6: 5634590564009818122
+      craters_7: -4818580742724988427
+      craters_8: 1714265838720407131
+      craters_9: 215914540380345701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
